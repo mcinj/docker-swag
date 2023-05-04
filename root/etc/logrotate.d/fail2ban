@@ -2,6 +2,7 @@
     weekly
     rotate 7
     missingok
+    maxsize 500M
     compress
     delaycompress
     nodateext
