@@ -1,7 +1,8 @@
 /config/log/fail2ban/fail2ban.log {
-    weekly
-    rotate 7
+    daily
+    rotate 14
     missingok
+    size 500M
     compress
     delaycompress
     nodateext
